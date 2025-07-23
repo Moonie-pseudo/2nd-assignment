@@ -1,0 +1,80 @@
+        body{
+            background-color: #F5F8FF;
+        }
+/* nav section style */
+        nav{
+            display: flex;
+            justify-content: space-between;
+            height: 71px;
+            width: 1140px;
+        }
+
+        .logo img{
+            height: 82px;
+            width: 135px;
+        }
+
+        .anchor ul{
+            height: 60px;
+            width:415px ;
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+
+        .anchor li{
+            list-style: none;
+        }
+
+        .anchor a{
+            text-decoration: none;
+            font-size: 16px;
+
+        }
+
+        #Home{
+            height: 24px;
+            width: 46px;
+            font-weight: bold;
+            color: #252432;
+        }
+
+        #Shop, #About{
+            color: #8987A1;
+        }
+
+        #Cart{
+            height: 24px;
+            width: 113px;
+            display: flex;
+            gap: 5px;
+        }
+
+        #Cart a{
+            color: black;
+        }
+
+
+
+        @media screen and (max-width: 576px) {
+            /* navbar section */
+            body{
+                overflow-x: hidden;
+            }
+
+            nav{
+                height: 38px;
+                width: 361px;
+            }
+
+            .logo img{
+                height: 38px;
+                width: 63px;
+            }
+
+            .hide{
+                display: none;
+            }
+
+
+        }
