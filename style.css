@@ -73,7 +73,7 @@
         }
 
         .banner-text h3 span{
-            color:#E95A08 ;
+            color: #E95A08;
         }
 
         .banner-text p{
@@ -177,9 +177,203 @@
             padding-bottom: 40px;
         }
 
+/* deals text section */
 
+        .deal-txt{
+            width: 1140px;
+            margin: 0 auto;
+            margin-bottom: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
 
+         .deal-txt h3{
+            font-size:3.125rem ;
+            font-weight: bold;
+            margin-bottom: 0;
+         }
 
+         .deal-txt h3 span{
+            color: #E95A08;
+         }
+
+         .deal-txt p{
+            color: #000000;
+            opacity: 50%;
+            font-size:1.375rem ;
+            width: 888px;
+         }
+
+/* deals-img section */
+
+         .deals-img{
+            max-width: 1140px;
+            margin: 0 auto;
+            margin-bottom: 100px;
+            display: grid;
+            grid-template-columns: 367px 753px;
+            gap: 21px;
+            text-align: center;
+            align-items: center;
+         }
+
+         .bloom-ana{
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+         }
+
+         .bloom{
+            background-image: url(Images/deal-bloom.png);
+            height:201px ;
+            border-radius: 14px;
+            
+         }
+
+         .bloom p,a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+
+         .bloom p, .ana p{
+            padding-top: 50px;
+         }
+
+         .ana{
+            background-image: url(Images/deal-ana.png);
+            height: 201px;
+            border-radius: 14px;
+         }
+
+         .zabo{
+            background-image: url(Images/deal-zabo.png);
+            width: 100%;
+            height:423.12px ;
+            border-radius: 24px;
+         }
+
+         .zabo p{
+            padding-top: 120px;
+            margin-bottom: 2px;
+         }
+         .shadow{
+            height: 100%;
+            overflow-y: hidden;
+            border-radius: 14px;
+            background-color: #000000;
+            opacity: 40%;
+         }
+
+         .deals-img p{
+            color: #FFFFFF;
+            font-size:1.25rem ;
+            font-weight: bold;
+            opacity: 100%;
+         }
+
+         .deals-img a{
+            color: #FFFFFF;
+            font-size: 1rem;
+            font-weight: 500;
+         }
+
+         .deals-img .zabo p{
+            font-size: 3rem;
+         }
+
+         .zabo a{
+            font-size: 2rem;
+         }
+
+         /* join-section */
+
+         .join {
+            background-image: url(Images/news-letter-bg.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            max-width: 1440px;
+            height: 533px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 0 auto;
+         }
+
+         .join h3{
+            font-size: 3.125rem;
+            color: #FFFFFF;
+         }
+
+         .input, input{
+            background-color: #FFFFFF;
+            border: none;
+         }
+
+         .input{
+            width: 830px;
+            height:50px ;
+            font-size: 16px;
+            display: flex;
+            justify-content: space-between;
+         }
+
+         #submit{
+            background-color: #E95A08;
+            height: 100%;
+            width:186px;
+            color: #FFFFFF;
+            font-size: 20px;
+         }
+
+         #email{
+            padding-left: 10px;
+            font-size:20px ;
+            width: 80%;
+         }
+
+         /* footer section */
+
+         footer{
+            max-width: 1440px;
+            margin: 0 auto;
+            padding: 50px;
+            display: flex;
+            justify-content: space-around;
+         }
+
+         .foot-txt{
+            width: 359px;
+         }
+
+         .foot-logo{
+            width: 135px;
+            margin-bottom: 16px;
+         }
+
+         .foot-description{
+            font-size: 1.375rem;
+            color: #000000;
+            opacity: 50%;
+         }
+
+         .link a{
+            text-decoration: none;
+            font-size:1rem ;
+            color: #6B7280;
+            line-height: 40px;
+         }
+
+         .foot-icon{
+            display: flex;
+            justify-content: space-between;
+            height: 36px;
+            width: 216px;
+         }
  @media screen and (max-width: 576px) {
             /* navbar section */
             body{
@@ -190,8 +384,6 @@
                 height: 38px;
                 width: 361px;
                 margin: 0 auto;
-
-
             }
 
             .logo img{
@@ -262,16 +454,72 @@
            .plover{
             flex-direction: column;
             margin-left: 1.5px;
+            margin-bottom: 0;
            }
 
           .plover-img img{
             width: 100%;
         }
         
-        .plover-txt{
+          .plover-txt{
+            width: 100%;
+        }
+        /* deal-txt section */
+  
+        .bloom, .ana{
+            width: 100%;
+            
+        }
+        .deal-txt{
+            max-width: 393px;
+            text-align: center;
+        }
+
+        .deal-txt p{
             width: 100%;
         }
 
-
+/* deals-img section */
+        .deals-img{
+            grid-template-columns: repeat(1,1fr);
         }
+
+/* join section */
+
+        .join{
+            height: 350px;
+            margin-left: 2px;
+        }
+
+        .join h3{
+            text-align: center;
+            font-size:25px ;
+            margin-bottom: 23px;
+        }
+
+        .input{
+            width: 85%;
+        }
+
+        .input input{
+            font-size: 16px;
+        }
+
+/* footer section */
+
+        footer{
+            padding-left: 0;
+            flex-direction: column;
+        }
+
+        .link{
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            align-items:start;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+    }
 
