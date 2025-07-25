@@ -145,6 +145,40 @@
             font-size: 1rem;
             padding: 10px;
         }
+ 
+/* plant-lover section */
+
+        .plover{
+            max-width: 1140px;
+            margin: 0 auto;
+            margin-top: 150px;
+            margin-bottom: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .plover-txt h3{
+            width:450px ;
+            font-size:3.2rem ;
+            font-weight:bold ;
+            margin-bottom: 0;
+        }
+
+        .plover-txt ul{
+            padding-right: 10px;
+            color: #000000;
+            opacity: 50%;
+            font-size: 1.375rem;
+        }
+
+        .plover-txt li{
+            padding-bottom: 40px;
+        }
+
+
+
 
  @media screen and (max-width: 576px) {
             /* navbar section */
@@ -156,11 +190,18 @@
                 height: 38px;
                 width: 361px;
                 margin: 0 auto;
+                background-color: tomato;
             }
 
             .logo img{
+                background-color: red;
                 height: 38px;
-                width: 63px;
+                width: auto;
+            }
+
+            #Cart{
+                background-color: red;
+                width: 25%;
             }
 
             .hide{
@@ -176,7 +217,6 @@
           }  
 
           .banner-img img{
-            height: a;
             width: 100%;
             margin-left: 8px;
           }
@@ -217,6 +257,22 @@
            .plant-item button{
             width: 171px;
            }
+
+           /* plants-lover section */
+
+           .plover{
+            flex-direction: column;
+            margin-left: 1.5px;
+           }
+
+          .plover-img img{
+            width: 100%;
+        }
+        
+        .plover-txt{
+            width: 100%;
+        }
+
 
         }
 
