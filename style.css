@@ -190,18 +190,17 @@
                 height: 38px;
                 width: 361px;
                 margin: 0 auto;
-                background-color: tomato;
+
+
             }
 
             .logo img{
-                background-color: red;
                 height: 38px;
                 width: auto;
             }
 
             #Cart{
-                background-color: red;
-                width: 25%;
+                width: 40%;
             }
 
             .hide{
