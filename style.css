@@ -482,6 +482,13 @@
 /* deals-img section */
         .deals-img{
             grid-template-columns: repeat(1,1fr);
+            
+        }
+
+        .ana, .bloom{
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
         }
 
 /* join section */
